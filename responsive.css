@@ -1,0 +1,352 @@
+/* Estilo responsive para pantallas de más de 2000px */
+
+/* Más de 2000px */
+@media screen and (min-width: 2000px) {
+    /* Aptitudes */
+    #img-aptitudes {
+        right: 10%;
+    }
+
+    /* Competencias */
+    #lista-competencias {
+        height: 350px;
+    }
+
+    .competencias {
+        right: 15%;
+        bottom: 12%;
+        height: 350px;
+    }
+}
+
+/* Estilo responsive para pantallas de varios rangos menores de 1500px hasta 975px */
+
+/* Menos de 1500px */
+@media screen and (max-width: 1500px) {
+    /* Aptitudes */
+    #img-aptitudes {
+        width: 400px;
+        bottom: 20px;
+    }
+
+    /* Competencias */
+    .competencias {
+        top: 2%;
+        right: 3%;
+        bottom: 0%;
+        height: 230px;
+    }
+
+    /* Historial Educativo */
+    .apartados > div + img {
+        height: 250px;
+    }
+}
+
+/* Menos de 1400px */
+@media screen and (max-width: 1400px) {
+    /* Contenedores Base */
+    html,
+    body {
+        font-size: 1em;
+    }
+
+    /* Aptitudes */
+    #img-aptitudes {
+        width: 330px;
+        bottom: 10px;
+    }
+
+    /* Competencias */
+    #lista-competencias {
+        height: 270px;
+    }
+
+    #lista-competencias ul {
+        float: right;
+        width: 60%;
+        padding: 0%;
+    }
+
+    .competencias {
+        float: right;
+        top: 22%;
+        left: -50px;
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Historial Educativo */
+    .apartados .tablas-educacion th {
+        font-size: .9em;
+    }
+
+    .apartados > div + img {
+        height: 200px;
+    }
+}
+
+/* Menos de 1260px */
+@media screen and (max-width: 1260px) {
+    /* Contenedores Base */
+    #contenedor1,
+    #contenedor2 {
+        width: 100%;
+    }
+
+    #contenedor1 {
+        height: 12%;
+        box-shadow: 0px 0px 6px 0px grey;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contenedor2 {
+        height: 88%;
+        top: 12%;
+        left: 0;
+    }
+
+    /* Contenedor 1 - Índice */
+    #contenedor1 > div {
+        width: 15.5%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    /* Competencias */
+    #lista-competencias ul {
+        margin-left: 40px;
+    }
+
+    .competencias {
+        top: 19%;
+    }
+}
+
+/* Menos de 975px */
+@media screen and (max-width: 975px) {
+    /* Contenedores Base */
+    html,
+    body {
+        font-size: 1.1em;
+    }
+
+    #contenedor1,
+    #contenedor2 {
+        width: 100%;
+    }
+
+    #contenedor1 {
+        height: 10%;
+        box-shadow: 0px 0px 6px 0px grey;
+        padding: 5px;
+        display: block;
+        text-align: left;
+    }
+
+    #contenedor2 {
+        height: 90%;
+        top: 10%;
+        left: 0;
+    }
+
+    /* Contenedor 1 - Índice */
+    #contenedor1 {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    #contenedor1 > div {
+        display: none;
+    }
+
+    #contenedor1 #menu-movil {
+        display: flex;
+        margin-right: 5%;
+        background-color: white;
+        border-radius: 100%;
+        border: 2px solid whitesmoke;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-movil > img {
+        width: 20px;
+        height: 20px;
+        margin: 5px 0px;
+    }
+
+    #contenedor-menu {
+        display: block;
+        box-sizing: border-box;
+        position: relative;
+        top: 11%;
+        background-color: whitesmoke;
+        width: 95%;
+        height: fit-content;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px -2px grey;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #contenedor-menu button {
+        display: block;
+        float: right;
+        position: relative;
+        bottom: 5px;
+        width: 15px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        font-size: 1em;
+    }
+
+    #contenedor-menu img {
+        width: 10px;
+    }
+
+    /* Aptitudes */
+    #img-aptitudes {
+        float: none;
+        clear: both;
+        display: block;
+        position: relative;
+        top: 10px;
+        margin: 10px auto;
+        width: 400px;
+    }
+
+    /* Competencias */
+    #lista-competencias {
+        height: 520px;
+    }
+
+    #lista-competencias ul {
+        float: none;
+        position: absolute;
+        top: 47%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .competencias {
+        float: none;
+        display: block;
+        margin: auto;
+        position: static;
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Historial Educativo */
+    .apartados > div {
+        display: block;
+        text-align: center;
+    }
+    
+    .apartados .tablas-educacion {
+        text-align: center;
+        width: 70%;
+        margin: 10px 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .apartados .tablas-educacion th {
+        font-size: 1.1em;
+    }
+
+    .apartados > div + img {
+        height: 300px;
+    }
+}
+
+/* Estilo responsive para pantallas de menos de 720px */
+
+@media screen and (max-width: 720px) {
+    /* Contenedores Base */
+    html,
+    body {
+        font-size: 1.1em;
+    }
+
+    h1,
+    .apartados h2 {
+        float: none;
+        text-align: center;
+    }
+
+    /* Contenedor 2 - Apartados */
+    .apartados {
+        left: 2.5%;
+        width: 95%;
+        padding: 40px;
+    }
+
+    .apartados ul {
+        margin: 0%;
+        margin-bottom: 10px;
+        padding: 0%;
+        font-size: 1em;
+        text-align: left;
+    }
+
+    /* Contacto */
+    #lista-sin-estilo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Aptitudes */
+    #img-aptitudes {
+        width: 300px;
+    }
+
+    /* Competencias */
+    #lista-competencias ul {
+        float: none;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .competencias {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Experiencia Laboral */
+    .apartados table {
+        display: block;
+    }
+
+    .apartados table span {
+        left: 0;
+        top: 0;
+    }
+
+    /* Historial Educativo */
+    .apartados .tablas-educacion {
+        text-align: center;
+        width: 95%;
+        margin: 10px 0px;
+        float: none;
+        display: inline-block;
+    }
+
+    .apartados > div + img {
+        height: 250px;
+    }
+}
